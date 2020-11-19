@@ -1,4 +1,5 @@
 import React from 'react';
+import { loginUrl } from './spotyfy';
 import './Login.css';
 
 function Login() {
@@ -9,7 +10,7 @@ function Login() {
         alt=''
       />
 
-      <a>LOGIN WITH SPOTIFY </a>
+      <a href={loginUrl}>LOGIN WITH SPOTIFY </a>
     </div>
   );
 }
