@@ -13,7 +13,11 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='footer__left'>
-        <img className='footer__albumLogo' src='' alt='' />
+        <img
+          className='footer__albumLogo'
+          src='https://pbs.twimg.com/profile_images/1301860838165291008/5QZft_k1_400x400.jpg'
+          alt=''
+        />
         <div className='footer__songInfo'>
           <h4>Yeah!</h4>
           <p>Usher</p>
